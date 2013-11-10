@@ -1,0 +1,21 @@
+// to initialize git repo
+// sets up necessary git files
+
+git init
+
+//stages the README file, adding it to the lsit of files to be committed
+
+git add README
+
+//commits your files, adding the message "first commit"
+
+git commit -m 'first commit'
+
+//creates a remote named "origin" pointing at your GitHub repository
+git remote add origin https://github.com/<username>/projectEu.git
+
+//sends your commits in the "master" branch to GitHub
+git push origin master
+
+// to sync all the latest files, be careful it merges too
+git pull
